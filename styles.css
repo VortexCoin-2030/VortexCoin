@@ -81,3 +81,23 @@ footer {
 .social-links a:hover {
     text-decoration: underline;
 }
+
+.button {
+  background-color: yellow;
+  color: black;
+  padding: 15px 30px; /* Adjust padding for a rectangular shape */
+  border: none;
+  border-radius: 5px; /* Optional: rounded corners */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the button */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
+
+.button:hover {
+  background-color: #f1c40f; /* A darker yellow when hovered */
+}
