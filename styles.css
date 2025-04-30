@@ -1,0 +1,103 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* White background for body */
+    margin: 0;
+    padding: 0;
+    color: #000; /* Black text for main content */
+    padding-bottom: 50px; /* Add space at the bottom to prevent footer overlap */
+}
+
+/* Header styles */
+header {
+    background-color: #FFD700; /* Yellow background */
+    color: #000; /* Black text */
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #000; /* Black border at the bottom */
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    border: 2px solid #000; /* Black border around sections */
+}
+
+h2 {
+    color: #000; /* Black color for headings */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #000; /* Black color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background-color: #FFD700; /* Yellow background */
+    color: #000; /* Black text */
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #000; /* Black border at the top */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Social links container */
+.social-links {
+    display: flex; /* Use Flexbox to display links side by side */
+    justify-content: center; /* Center the links */
+    gap: 20px; /* Space between the links */
+    margin-top: 20px;
+}
+
+.social-links a {
+    font-size: 1.2em;
+    color: #000; /* Black color for links */
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.button {
+  background-color: yellow;
+  color: black;
+  padding: 15px 30px; /* Adjust padding for a rectangular shape */
+  border: none;
+  border-radius: 5px; /* Optional: rounded corners */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the button */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
+
+.button:hover {
+  background-color: #f1c40f; /* A darker yellow when hovered */
+}
